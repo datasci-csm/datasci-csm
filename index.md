@@ -42,6 +42,7 @@
                   
          <div>
             <h3><a href="#">Tools</a></h3>
+            <li><a href="https://numpy.org/">NumPy</a></li>
             
          </div>
          <div>
