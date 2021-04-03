@@ -43,6 +43,8 @@
             <h3><a href="#">Tools</a></h3>
             <div>
                <li><a href="https://numpy.org/">NumPy</a></li>
+               <li><a href="https://jupyter.org/">Jupyter</a></li>
+               <li><a href="https://pandas.pydata.org/">pandas</a></li>
             </div>
          
          
