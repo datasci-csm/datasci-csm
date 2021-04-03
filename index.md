@@ -128,7 +128,7 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #c5f0d0;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
@@ -142,7 +142,7 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #c5f0d0;
   border-width: 10px 10px 10px 0px;
   border-color: transparent white transparent transparent;
 }
