@@ -103,7 +103,7 @@ body {
   height: 25px;
   right: -17px;
   background-color: #c5f0d0;
-  border: 4px solid #FF9F55;
+  border: 4px solid #218a3d;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
