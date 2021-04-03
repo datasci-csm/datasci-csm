@@ -200,7 +200,7 @@ body {
   <div class="container left">
     <div class="content">
       <h2>April 15 2021</h2>
-      <p>Fourth meething of Data Science Club for 2021 year.</p>
+      <p>Fourth meeting of Data Science Club for 2021 year.</p>
     </div>
   </div>
   <div class="container right">
@@ -224,7 +224,7 @@ body {
   <div class="container left">
     <div class="content">
       <h2>February 2021</h2>
-      <p>Data Scienc Club at CSM re-established for 2021.</p>
+      <p>Data Science Club at CSM re-established for 2021.</p>
     </div>
   </div>
   <div class="container right">
