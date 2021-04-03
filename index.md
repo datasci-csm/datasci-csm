@@ -40,13 +40,15 @@
                <li><a href="https://www.bls.gov/oes/current/oes152098.htm">U.S Bureau of Labor Statistics--Data Scientists</a></li>
                <li><a href="https://en.wikipedia.org/wiki/Data_science">Wikipedia-- Data Science</a></li></div>
                   
-         <div>
+         
             <h3><a href="#">Tools</a></h3>
-            <li><a href="https://numpy.org/">NumPy</a></li>
-            
-         </div>
-         <div>
+            <div>
+               <li><a href="https://numpy.org/">NumPy</a></li>
+            </div>
+         
+         
             <h3><a href="#">Timeline</a></h3>
+            <div>
             </div>
    
    
