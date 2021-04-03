@@ -16,7 +16,7 @@
          <h3><a href="#"> What is Data Science? </a></h3>
          <div>Data science is: </div>
          <h3><a href="#">What to study for Data Science</a></h3>
-         <div>Learning data science is: </div>
+         <div>Learning data science is </div>
          <h3><a href="#">Careers in Data Science</a></h3>
          <div>There are many careers in data science </div>
    
@@ -42,8 +42,11 @@
                   
          <div>
             <h3><a href="#">Tools</a></h3>
+            
          </div>
-         
+         <div>
+            <h3><a href="#">Timeline</a></h3>
+            </div>
    
    
 
