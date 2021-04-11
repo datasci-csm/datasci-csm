@@ -56,6 +56,14 @@
                 <p style="font-size:50px" id="#shark">&#129416;</p>Vice President
                 <p style="font-size:50px" id="#cheese">&#x1f9c0;</p>WebDev
             </div>
+
+            <h3><a href="#">Calendar</a></h3>
+            <div id="calendar">
+                <p>Select a day to see events</p>
+                <label>Date:</label>
+                <label><input type="text" id="datepicker"></label>
+                <span id="calendar_message"></span>
+            </div>
         </div>
         
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -75,6 +83,25 @@
                     }
                 );
 
+                $("#datepicker").datepicker( {
+                    minDate: new Date(),
+                    maxDate: +90,
+                    showButtonPanel: true
+                });
+
+                $("input#datepicker").change( () => {
+
+                    let selectedDate = new Date($("#datepicker").datepicker("getDate"));
+                    console.log(selectedDate.getDay());
+                    
+                    if (selectedDate.getDay() == 4) {
+                        $("#calendar_message").html(`
+                            <p>Meeting at 6pm on Zoom</p>`);
+                    } else {
+                        $("#calendar_message").html(`
+                            <p>No meeting today</p>`);
+                    }
+                });
                 
             });
 
