@@ -3,8 +3,8 @@
     <head>
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
 
         <style>
             body { font-size:large; padding: 2em; border:1px orange; margin:1em;font-family: 'IBM Plex Mono', monospace;}
@@ -13,8 +13,42 @@
     </head>
     <body>
         <h2>Welcome to the Data Science Club at CSM</h2>
-        <p><a href="./about.html">About Us</a></p>
         
+        
+        <!-- tabs -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#meetings">Meetings</a></li>
+                <li><a href="#about" class="about">About Us</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+            <div id="meetings"><p>Meetings are once weekly on Zoom, 
+                and occur on Wednesday, Thursday, or Friday at 6PM. Meetings
+                typically last 30 minutes and focus on learning more about data
+                science, admin topics, and future plans and ideas.</p></div>
+            <div id="about">We are the Data Science Club at CSM, committed to 
+                learning more about data science and creating projects
+                to utilize data science tools such as NumPy, Pandas,
+                and Jupyter. 
+    
+                We hold weekly meetings and discuss various topics in data
+                science to increase our understanding and knowledge of this field.
+            </div>
+            <div id="resources"><p>Here are some tools, resources and links to more
+                information about data science:
+                <ul>
+                    <li><a href="https://www.bls.gov/oes/current/oes152098.htm">U.S Bureau of Labor Statistics--Data Scientists</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Data_science">Wikipedia-- Data Science</a></li>
+                    <li><a href="https://numpy.org/">NumPy</a></li>
+                    <li><a href="https://jupyter.org/">Jupyter</a></li>
+                    <li><a href="https://pandas.pydata.org/">pandas</a></li>
+    
+                </ul>
+            </p></div>
+        </div>
+        
+        
+        <!-- accordion -->
         <div id="accordion">
             <h3><a href="#">Class Officer Emojis</a></h3>
             <div id="emojis">
@@ -29,6 +63,9 @@
         <script>
        
             $(document).ready( () => {
+
+                $("#tabs").tabs();
+
                 $("#accordion").accordion(
                     {
                         event: "click",
@@ -37,6 +74,8 @@
                         active: false
                     }
                 );
+
+                
             });
 
         </script>
